@@ -195,7 +195,7 @@
     "_timestamp": "2021-07-01T00:00:00+00:00",
     "service": "use-an-lpa",
     "channel": "digital",
-    "count": 90,
+    "count": 89,
     "dataType": "user-satisfaction-percent",
     "period": "month"
   },
