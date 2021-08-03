@@ -3,7 +3,7 @@
     "_timestamp": "2021-03-01T00:00:00+00:00",
     "service": "use-an-lpa",
     "channel": "digital",
-    "count": 89,
+    "count": 91,
     "dataType": "user-satisfaction-percent",
     "period": "month"
   },
@@ -11,44 +11,188 @@
     "_timestamp": "2021-03-01T00:00:00+00:00",
     "service": "use-an-lpa",
     "channel": "digital",
-    "count": 174,
+    "count": 67,
     "dataType": "very-dissatisfied",
     "period": "month"
   },
   {
     "_timestamp": "2021-03-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 73,
+    "dataType": "dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-03-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 205,
+    "dataType": "neither",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-03-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 1276,
+    "dataType": "satisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-03-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 4434,
+    "dataType": "very-satisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-04-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 90,
+    "dataType": "user-satisfaction-percent",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-04-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 61,
+    "dataType": "very-dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-04-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 52,
+    "dataType": "dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-04-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 183,
+    "dataType": "neither",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-04-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 1248,
+    "dataType": "satisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-04-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 3502,
+    "dataType": "very-satisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-05-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 90,
+    "dataType": "user-satisfaction-percent",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-05-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 63,
+    "dataType": "very-dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-05-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 67,
+    "dataType": "dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-05-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 204,
+    "dataType": "neither",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-05-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 1419,
+    "dataType": "satisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-05-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 3883,
+    "dataType": "very-satisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-06-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 90,
+    "dataType": "user-satisfaction-percent",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-06-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 79,
+    "dataType": "very-dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-06-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 57,
+    "dataType": "dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-06-01T00:00:00+00:00",
     "service": "use-an-lpa",
     "channel": "digital",
     "count": 173,
-    "dataType": "dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2021-03-01T00:00:00+00:00",
-    "service": "use-an-lpa",
-    "channel": "digital",
-    "count": 593,
     "dataType": "neither",
     "period": "month"
   },
   {
-    "_timestamp": "2021-03-01T00:00:00+00:00",
+    "_timestamp": "2021-06-01T00:00:00+00:00",
     "service": "use-an-lpa",
     "channel": "digital",
-    "count": 3913,
+    "count": 1225,
     "dataType": "satisfied",
     "period": "month"
   },
   {
-    "_timestamp": "2021-03-01T00:00:00+00:00",
+    "_timestamp": "2021-06-01T00:00:00+00:00",
     "service": "use-an-lpa",
     "channel": "digital",
-    "count": 9814,
+    "count": 3519,
     "dataType": "very-satisfied",
     "period": "month"
   },
   {
-    "_timestamp": "2021-04-01T00:00:00+00:00",
+    "_timestamp": "2021-07-01T00:00:00+00:00",
     "service": "use-an-lpa",
     "channel": "digital",
     "count": 89,
@@ -56,138 +200,42 @@
     "period": "month"
   },
   {
-    "_timestamp": "2021-04-01T00:00:00+00:00",
+    "_timestamp": "2021-07-01T00:00:00+00:00",
     "service": "use-an-lpa",
     "channel": "digital",
-    "count": 179,
+    "count": 66,
     "dataType": "very-dissatisfied",
     "period": "month"
   },
   {
-    "_timestamp": "2021-04-01T00:00:00+00:00",
+    "_timestamp": "2021-07-01T00:00:00+00:00",
     "service": "use-an-lpa",
     "channel": "digital",
-    "count": 134,
+    "count": 67,
     "dataType": "dissatisfied",
     "period": "month"
   },
   {
-    "_timestamp": "2021-04-01T00:00:00+00:00",
+    "_timestamp": "2021-07-01T00:00:00+00:00",
     "service": "use-an-lpa",
     "channel": "digital",
-    "count": 551,
+    "count": 216,
     "dataType": "neither",
     "period": "month"
   },
   {
-    "_timestamp": "2021-04-01T00:00:00+00:00",
+    "_timestamp": "2021-07-01T00:00:00+00:00",
     "service": "use-an-lpa",
     "channel": "digital",
-    "count": 2964,
+    "count": 1302,
     "dataType": "satisfied",
     "period": "month"
   },
   {
-    "_timestamp": "2021-04-01T00:00:00+00:00",
+    "_timestamp": "2021-07-01T00:00:00+00:00",
     "service": "use-an-lpa",
     "channel": "digital",
-    "count": 7829,
-    "dataType": "very-satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2021-05-01T00:00:00+00:00",
-    "service": "use-an-lpa",
-    "channel": "digital",
-    "count": 89,
-    "dataType": "user-satisfaction-percent",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2021-05-01T00:00:00+00:00",
-    "service": "use-an-lpa",
-    "channel": "digital",
-    "count": 163,
-    "dataType": "very-dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2021-05-01T00:00:00+00:00",
-    "service": "use-an-lpa",
-    "channel": "digital",
-    "count": 191,
-    "dataType": "dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2021-05-01T00:00:00+00:00",
-    "service": "use-an-lpa",
-    "channel": "digital",
-    "count": 611,
-    "dataType": "neither",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2021-05-01T00:00:00+00:00",
-    "service": "use-an-lpa",
-    "channel": "digital",
-    "count": 3588,
-    "dataType": "satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2021-05-01T00:00:00+00:00",
-    "service": "use-an-lpa",
-    "channel": "digital",
-    "count": 9077,
-    "dataType": "very-satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2021-06-01T00:00:00+00:00",
-    "service": "use-an-lpa",
-    "channel": "digital",
-    "count": 89,
-    "dataType": "user-satisfaction-percent",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2021-06-01T00:00:00+00:00",
-    "service": "use-an-lpa",
-    "channel": "digital",
-    "count": 131,
-    "dataType": "very-dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2021-06-01T00:00:00+00:00",
-    "service": "use-an-lpa",
-    "channel": "digital",
-    "count": 153,
-    "dataType": "dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2021-06-01T00:00:00+00:00",
-    "service": "use-an-lpa",
-    "channel": "digital",
-    "count": 568,
-    "dataType": "neither",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2021-06-01T00:00:00+00:00",
-    "service": "use-an-lpa",
-    "channel": "digital",
-    "count": 3005,
-    "dataType": "satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2021-06-01T00:00:00+00:00",
-    "service": "use-an-lpa",
-    "channel": "digital",
-    "count": 7636,
+    "count": 3483,
     "dataType": "very-satisfied",
     "period": "month"
   }
