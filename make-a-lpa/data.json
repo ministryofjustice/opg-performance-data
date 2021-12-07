@@ -99,7 +99,7 @@
     "_timestamp": "2021-07-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": 88,
+    "count": 92,
     "dataType": "user-satisfaction-percent",
     "period": "month"
   },
@@ -123,7 +123,7 @@
     "_timestamp": "2021-08-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": 89,
+    "count": 92,
     "dataType": "user-satisfaction-percent",
     "period": "month"
   },
@@ -139,7 +139,7 @@
     "_timestamp": "2021-09-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": 87,
+    "count": 91,
     "dataType": "user-satisfaction-percent",
     "period": "month"
   },
@@ -155,7 +155,15 @@
     "_timestamp": "2021-10-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": 88,
+    "count": 92,
+    "dataType": "user-satisfaction-percent",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-11-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": 92,
     "dataType": "user-satisfaction-percent",
     "period": "month"
   }
