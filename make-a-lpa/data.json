@@ -19,7 +19,7 @@
     "_timestamp": "2021-03-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": "100",
+    "count": 100,
     "dataType": "uptime-percent",
     "period": "month"
   },
