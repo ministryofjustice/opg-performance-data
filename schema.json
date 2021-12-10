@@ -22,9 +22,7 @@
       },
       "count": {
         "description": "The count representative of the metric being requested.",
-        "type": "number",
-        "minimum": 0,
-        "maximum": 100
+        "type": "number"
       },
       "datatype": {
         "description": "Name of the data you are sending such as transactions, digital-take-up, completion-rate",
