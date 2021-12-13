@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ApiResponse",
+  "type": "array",
+  "default": [],
+  "items": {
+    "type": "object",
+    "properties": {
+      "_timestamp": {
+        "format": "date-time",
+        "description": "The start of the period to which the data relates (e.g. midnight at the start of the day for daily data, or the start of the hour for hourly data). All times must be in the past.",
+        "type": "string"
+      },
+      "service": {
+        "description": "Name of the service these figures represent.",
+        "type": "string",
+        "pattern": "^(make-a-lpa|use-an-lpa)$"
+      },
+      "channel": {
+        "description": "Which channel this data comes from such as digital, phone, post, etc",
+        "type": "string"
+      },
+      "count": {
+        "description": "The count representative of the metric being requested.",
+        "type": "number"
+      },
+      "datatype": {
+        "description": "Name of the data you are sending such as transactions, digital-take-up, completion-rate",
+        "type": "string"
+      },
+      "period": {
+        "description": "Definition of `period` as it applies to ‘Digital take-up,’ and any other info a user might want to know about this param. e.g. hour, day, month",
+        "type": "string",
+        "pattern": "^(hour|day|month)$"
+      }
+    }
+  }
+}
