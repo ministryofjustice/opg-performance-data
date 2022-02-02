@@ -430,5 +430,101 @@
     "count": 4314,
     "dataType": "very-satisfied",
     "period": "month"
+  },
+  {
+    "_timestamp": "2021-12-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 89,
+    "dataType": "user-satisfaction-percent",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-12-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 100,
+    "dataType": "very-dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-12-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 73,
+    "dataType": "dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-12-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 222,
+    "dataType": "neither",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-12-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 1392,
+    "dataType": "satisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-12-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 3766,
+    "dataType": "very-satisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2022-01-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 89,
+    "dataType": "user-satisfaction-percent",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2022-01-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 151,
+    "dataType": "very-dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2022-01-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 120,
+    "dataType": "dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2022-01-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 359,
+    "dataType": "neither",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2022-01-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 2308,
+    "dataType": "satisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2022-01-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 6110,
+    "dataType": "very-satisfied",
+    "period": "month"
   }
 ]
