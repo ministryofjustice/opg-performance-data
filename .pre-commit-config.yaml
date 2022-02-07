@@ -1,0 +1,15 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.2.0
+    hooks:
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+    -   id: check-json
+- repo: https://github.com/sirosen/check-jsonschema
+  rev: 0.10.2
+  hooks:
+    - id: check-jsonschema
+      name: "Check Service JSON against schema definition"
+      files: ^(make-a-lpa|use-an-lpa)/
+      types: [json]
+      args: ["--schemafile", "schema.json"]

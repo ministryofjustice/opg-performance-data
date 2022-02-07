@@ -1,3 +1,5 @@
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+
 # OPG Services Performance Data
 
 A repository for holding our live services performance data for public consumption.
@@ -30,5 +32,9 @@ To add new data for your service
 - Update the date to be the first of the new month on each entry
 - Update the figures on each entry
 - Commit, create a PR and once signed off by your team, merge
+
+## Pre-Commit Hooks
+
+The root of this project contains a `.pre-commit-config.yaml` file used with [pre-commit](https://pre-commit.com/) to automate the running of tasks when a commit is made with github.
 
 OPG Services Performance Data: Managed by opg-org-infra &amp; Terraform
