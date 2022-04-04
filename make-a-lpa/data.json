@@ -11,7 +11,7 @@
     "_timestamp": "2021-03-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": 37.2,
+    "count": 37,
     "dataType": "digital-take-up",
     "period": "month"
   },
@@ -23,6 +23,7 @@
     "dataType": "uptime-percent",
     "period": "month"
   },
+
   {
     "_timestamp": "2021-04-01T00:00:00+00:00",
     "service": "make-a-lpa",
@@ -35,7 +36,7 @@
     "_timestamp": "2021-04-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": 36.9,
+    "count": 36.48,
     "dataType": "digital-take-up",
     "period": "month"
   },
@@ -47,6 +48,7 @@
     "dataType": "uptime-percent",
     "period": "month"
   },
+
   {
     "_timestamp": "2021-05-01T00:00:00+00:00",
     "service": "make-a-lpa",
@@ -59,7 +61,7 @@
     "_timestamp": "2021-05-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": 35.3,
+    "count": 35.12,
     "dataType": "digital-take-up",
     "period": "month"
   },
@@ -71,6 +73,7 @@
     "dataType": "uptime-percent",
     "period": "month"
   },
+
   {
     "_timestamp": "2021-06-01T00:00:00+00:00",
     "service": "make-a-lpa",
@@ -83,7 +86,7 @@
     "_timestamp": "2021-06-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": 35.2,
+    "count": 35.53,
     "dataType": "digital-take-up",
     "period": "month"
   },
@@ -95,6 +98,7 @@
     "dataType": "uptime-percent",
     "period": "month"
   },
+
   {
     "_timestamp": "2021-07-01T00:00:00+00:00",
     "service": "make-a-lpa",
@@ -107,7 +111,7 @@
     "_timestamp": "2021-07-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": 30.2,
+    "count": 29.01,
     "dataType": "digital-take-up",
     "period": "month"
   },
@@ -119,6 +123,7 @@
     "dataType": "uptime-percent",
     "period": "month"
   },
+
   {
     "_timestamp": "2021-08-01T00:00:00+00:00",
     "service": "make-a-lpa",
@@ -131,10 +136,19 @@
     "_timestamp": "2021-08-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
+    "count": 30.69,
+    "dataType": "digital-take-up",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-08-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
     "count": 100,
     "dataType": "uptime-percent",
     "period": "month"
   },
+
   {
     "_timestamp": "2021-09-01T00:00:00+00:00",
     "service": "make-a-lpa",
@@ -147,10 +161,19 @@
     "_timestamp": "2021-09-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
+    "count": 31.94,
+    "dataType": "digital-take-up",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-09-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
     "count": 100,
     "dataType": "uptime-percent",
     "period": "month"
   },
+
   {
     "_timestamp": "2021-10-01T00:00:00+00:00",
     "service": "make-a-lpa",
@@ -160,10 +183,111 @@
     "period": "month"
   },
   {
+    "_timestamp": "2021-10-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": 30.57,
+    "dataType": "digital-take-up",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-10-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": 100,
+    "dataType": "uptime-percent",
+    "period": "month"
+  },
+
+  {
     "_timestamp": "2021-11-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": 92,
+    "count": 88,
+    "dataType": "user-satisfaction-percent",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-11-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": 34.1,
+    "dataType": "digital-take-up",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-11-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": 100,
+    "dataType": "uptime-percent",
+    "period": "month"
+  },
+
+  {
+    "_timestamp": "2021-12-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": 87,
+    "dataType": "user-satisfaction-percent",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-12-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": 30.13,
+    "dataType": "digital-take-up",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2021-12-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": 100,
+    "dataType": "uptime-percent",
+    "period": "month"
+  },
+
+  {
+    "_timestamp": "2022-01-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": 87,
+    "dataType": "user-satisfaction-percent",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2022-01-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": 30.4,
+    "dataType": "digital-take-up",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2022-01-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": 100,
+    "dataType": "uptime-percent",
+    "period": "month"
+  },
+
+  {
+    "_timestamp": "2022-02-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": 87,
+    "dataType": "user-satisfaction-percent",
+    "period": "month"
+  },
+
+  {
+    "_timestamp": "2022-03-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": 86,
     "dataType": "user-satisfaction-percent",
     "period": "month"
   }
