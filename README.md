@@ -37,4 +37,12 @@ To add new data for your service
 
 The root of this project contains a `.pre-commit-config.yaml` file used with [pre-commit](https://pre-commit.com/) to automate the running of tasks when a commit is made with github.
 
+## Validation of JSON
+
+You can check the validity of your JSON document by running the following command in your terminal at the root of the project.
+
+`node ./validate/index.js`
+
+This also runs in the Github Action and will break the build if there is an error.
+
 OPG Services Performance Data: Managed by opg-org-infra &amp; Terraform
