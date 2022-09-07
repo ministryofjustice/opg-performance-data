@@ -6,7 +6,15 @@ jobs:
   verify-json-validation:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Node
+        uses: actions/setup-node@v3
+
+      - name: Validate JSON Files
+        run: node ./validate/index.js
+
       - name: Validate JSON
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
