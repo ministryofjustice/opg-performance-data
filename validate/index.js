@@ -1,7 +1,7 @@
 'use strict';
 
 const fs = require('fs');
-const documentsToCheck = ["./use-an-lpa/data.json", "./make-a-lpa/data.json"];
+const documentsToCheck = ["./src/_data/use-an-lpa/data.json", "./src/_data/make-a-lpa/data.json"];
 
 documentsToCheck.forEach(value => {
     const data = fs.readFileSync(value);
@@ -13,5 +13,7 @@ documentsToCheck.forEach(value => {
     if (isDuplicate) {
         console.error(`JSON in ${value} has one or more entries with the same _timestamp and dataType. These need to be unique.`);
         process.exit(1)
+    } else {
+        console.log(`JSON in ${value} passes validation.`);
     }
 })

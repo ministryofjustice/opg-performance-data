@@ -3,5 +3,5 @@
 To query this data run the curl command below or open the [data.json](data.json) file.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ministryofjustice/performance-data/main/make-a-lpa/data.json
+curl -fsSL https://raw.githubusercontent.com/ministryofjustice/performance-data/main/src/_data/make-a-lpa/data.json
 ```

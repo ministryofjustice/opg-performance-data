@@ -12,15 +12,15 @@ the data available there, you only need to update this repository.
 
 ## Make a lasting power of attorney Performance Data
 
-**Read me:** [make-a-lpa/README.md](make-a-lpa/README.md)
+**Read me:** [src/_data/make-a-lpa/README.md](src/_data/make-a-lpa/README.md)
 
-**Data:** [make-a-lpa/data.json](make-a-lpa/data.json)
+**Data:** [src/_data/make-a-lpa/data.json](src/_data/make-a-lpa/data.json)
 
 ## Use a lasting power of attorney Performance Data
 
-**Read me:** [use-an-lpa/README.md](use-an-lpa/README.md)
+**Read me:** [src/_data/use-an-lpa/README.md](src/_data/use-an-lpa/README.md)
 
-**Data:** [use-an-lpa/data.json](use-an-lpa/data.json)
+**Data:** [src/_data/use-an-lpa/data.json](src/_data/use-an-lpa/data.json)
 
 ## Contributing
 
