@@ -10,6 +10,6 @@ repos:
   hooks:
     - id: check-jsonschema
       name: "Check Service JSON against schema definition"
-      files: ^(make-a-lpa|use-an-lpa)/
+      files: ^(make_a_lpa|use_an_lpa)/
       types: [json]
       args: ["--schemafile", "schema.json"]

@@ -19,4 +19,4 @@ jobs:
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
           INPUT_SCHEMA: /schema.json
-          INPUT_JSONS: src/_data/use-an-lpa/data.json,src/_data/make-a-lpa/data.json
+          INPUT_JSONS: src/_data/use_an_lpa/data.json,src/_data/make_a_lpa/data.json
