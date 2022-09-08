@@ -1,0 +1,3 @@
+{% macro datetime(date) %}
+<time datetime="{{ date | date24HourFilter }}">{{ date | dateFilter }}</time>
+{% endmacro %}
