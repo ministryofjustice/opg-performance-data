@@ -1,6 +1,4 @@
 const markdownItGds = require('./markdown-it-gds');
-const dateFilter = require('./src/filters/date-filter.js');
-const date24HourFilter = require('./src/filters/date24Hours-filter.js');
 const percentFilter = require('./src/filters/percent-filter');
 const performanceFilter = require('./src/filters/performance-filter.js');
 
@@ -13,8 +11,6 @@ module.exports = function (eleventyConfig) {
         console.log(value)
     })
 
-    eleventyConfig.addFilter('dateFilter', dateFilter);
-    eleventyConfig.addFilter('date24HourFilter', date24HourFilter);
     eleventyConfig.addFilter('performanceFilter', performanceFilter);
     eleventyConfig.addFilter('percentFilter', percentFilter);
 
