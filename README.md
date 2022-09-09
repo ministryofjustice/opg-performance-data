@@ -1,4 +1,7 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![eleventy](https://img.shields.io/badge/staticgen-eleventy-%23707070.svg?style=flat-square)](https://11ty.io)
+
+[![repo standards badge](https://img.shields.io/badge/dynamic/json?color=blue&style=for-the-badge&logo=github&label=MoJ%20Compliant&query=%24.data%5B%3F%28%40.name%20%3D%3D%20%22performance-data%22%29%5D.status&url=https%3A%2F%2Foperations-engineering-reports.cloud-platform.service.justice.gov.uk%2Fgithub_repositories)](https://operations-engineering-reports.cloud-platform.service.justice.gov.uk/github_repositories#performance-data "Link to report")
 
 # OPG Services Performance Data
 
@@ -30,7 +33,7 @@ If you want to run a local copy of the site, run the following commands to insta
 * `nvm use`
 * `yarn install`
 
-Then to run the site use `yarn run serve` which will run the site on localhost:8080 in watch mode.
+Then to run the site use `yarn run start` which will run the site on localhost:8080 in watch mode.
 
 ## Contributing
 
