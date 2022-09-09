@@ -1,0 +1,79 @@
+.app-navigation {
+  border-bottom: 1px solid $govuk-border-colour;
+  background-color: govuk-colour("light-grey");
+}
+
+.no-js .app-navigation {
+  @include govuk-media-query($until: tablet) {
+    display: block;
+  }
+}
+
+.app-navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @include govuk-media-query($from: tablet) {
+    position: relative;
+    left: govuk-spacing(-3);
+  }
+}
+
+.app-navigation__list-item {
+  position: relative;
+
+  @include govuk-media-query($from: tablet) {
+    $navigation-height: 50px;
+
+    @include govuk-font(19, $weight: bold, $line-height: $navigation-height);
+    box-sizing: border-box;
+    height: $navigation-height;
+    height: govuk-px-to-rem($navigation-height);
+    padding: 0 govuk-spacing(3);
+    float: left;
+  }
+}
+
+.app-navigation__link {
+  margin: govuk-spacing(3) 0;
+  padding: 0;
+  @include govuk-typography-weight-bold;
+  font-size: 19px;
+  font-size: govuk-px-to-rem(19px);
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.app-navigation__link:not([hidden]) {
+  display: inline-block;
+
+  @include govuk-media-query($from: tablet) {
+    display: inline;
+  }
+}
+
+.app-navigation__subnav {
+  margin: 0 govuk-spacing(-3);
+  padding: govuk-spacing(2) 0;
+  list-style: none;
+  background-color: govuk-colour("white");
+}
+
+.app-navigation__theme {
+  @include govuk-typography-common;
+  position: relative;
+  margin: 0;
+  padding: govuk-spacing(4) govuk-spacing(3) govuk-spacing(1);
+  color: govuk-colour("dark-grey");
+  font-size: 19px;
+  font-size: govuk-px-to-rem(19px);
+  font-weight: normal;
+}

@@ -1,37 +1,50 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![eleventy](https://img.shields.io/badge/staticgen-eleventy-%23707070.svg?style=flat-square)](https://11ty.io)
+
+[![repo standards badge](https://img.shields.io/badge/dynamic/json?color=blue&style=for-the-badge&logo=github&label=MoJ%20Compliant&query=%24.data%5B%3F%28%40.name%20%3D%3D%20%22performance-data%22%29%5D.status&url=https%3A%2F%2Foperations-engineering-reports.cloud-platform.service.justice.gov.uk%2Fgithub_repositories)](https://operations-engineering-reports.cloud-platform.service.justice.gov.uk/github_repositories#performance-data "Link to report")
 
 # OPG Services Performance Data
 
 A repository for holding our live services performance data for public consumption.
 
-This repository is a temporary placeholder for allowing the public to consume our
-service performance data as required by GDS.
+This repository is for allowing the public to consume our service performance data as required by GDS.
 
 Each service is setup to point to the appropriate sub directory on data.gov.uk. To update
 the data available there, you only need to update this repository.
 
+On update of the JSON data, the pipeline will build a eleventy static site and publish to github pages. This site is generated from the JSON data automatically.
+
 ## Make a lasting power of attorney Performance Data
 
-**Read me:** [make-a-lpa/README.md](make-a-lpa/README.md)
+**Read me:** [src/_data/make_a_lpa/README.md](src/_data/make_a_lpa/README.md)
 
-**Data:** [make-a-lpa/data.json](make-a-lpa/data.json)
+**Data:** [src/_data/make_a_lpa/data.json](src/_data/make_a_lpa/data.json)
 
 ## Use a lasting power of attorney Performance Data
 
-**Read me:** [use-an-lpa/README.md](use-an-lpa/README.md)
+**Read me:** [src/_data/use_an_lpa/README.md](src/_data/use_an_lpa/README.md)
 
-**Data:** [use-an-lpa/data.json](use-an-lpa/data.json)
+**Data:** [src/_data/use_an_lpa/data.json](src/_data/use_an_lpa/data.json)
+
+## Running the site locally
+
+If you want to run a local copy of the site, run the following commands to install dependencies.
+
+* `nvm use`
+* `yarn install`
+
+Then to run the site use `yarn run start` which will run the site on localhost:8080 in watch mode.
 
 ## Contributing
 
 To add new data for your service
 
-- Create a new branch
-- Open your services appropriate `data.json` file
-- Copy and paste the previous months statistics
-- Update the date to be the first of the new month on each entry
-- Update the figures on each entry
-- Commit, create a PR and once signed off by your team, merge
+* Create a new branch
+* Open your services appropriate `data.json` file
+* Copy and paste the previous months statistics
+* Update the date to be the first of the new month on each entry
+* Update the figures on each entry
+* Commit, create a PR and once signed off by your team, merge
 
 ## Pre-Commit Hooks
 

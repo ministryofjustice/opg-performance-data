@@ -1,0 +1,39 @@
+---
+layout: layouts/performancePage.njk
+title: Make a Lasting Power of Attorney Performance Data
+description: "This page provides data on the performance of the Make a lasting power of attorney service."
+---
+{%- from "../../node_modules/govuk-frontend/govuk/components/table/macro.njk" import govukTable %}
+{% set perfData = make_a_lpa.data | performanceFilter %}
+
+{% set tableList = [] %}
+{% for perf in perfData %}
+    {% set tableList = (tableList.push([
+        {text: perf.dateDisplay},
+        {text: perf.stats.user_satisfaction_percent | percentFilter},
+        {text: perf.stats.digital_take_up | percentFilter},
+        {text: perf.stats.uptime_percent | percentFilter}
+        ]),
+    tableList) %}
+{% endfor %}
+
+{{ govukTable({
+  caption: "Monthly Performance Data",
+  captionClasses: "govuk-heading-l",
+  firstCellIsHeader: false,
+  head: [
+    {
+      text: "Date"
+    },
+    {
+      text: "User Satisfaction Percent"
+    },
+    {
+      text: "Digital Take Up"
+    },
+    {
+      text: "Uptime Percent"
+    }
+  ],
+  rows: tableList
+}) }}
