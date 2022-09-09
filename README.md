@@ -4,11 +4,12 @@
 
 A repository for holding our live services performance data for public consumption.
 
-This repository is a temporary placeholder for allowing the public to consume our
-service performance data as required by GDS.
+This repository is for allowing the public to consume our service performance data as required by GDS.
 
 Each service is setup to point to the appropriate sub directory on data.gov.uk. To update
 the data available there, you only need to update this repository.
+
+On update of the JSON data, the pipeline will build a eleventy static site and publish to github pages. This site is generated from the JSON data automatically.
 
 ## Make a lasting power of attorney Performance Data
 
@@ -22,16 +23,25 @@ the data available there, you only need to update this repository.
 
 **Data:** [src/_data/use_an_lpa/data.json](src/_data/use_an_lpa/data.json)
 
+## Running the site locally
+
+If you want to run a local copy of the site, run the following commands to install dependencies.
+
+* `nvm use`
+* `yarn install`
+
+Then to run the site use `yarn run serve` which will run the site on localhost:8080 in watch mode.
+
 ## Contributing
 
 To add new data for your service
 
-- Create a new branch
-- Open your services appropriate `data.json` file
-- Copy and paste the previous months statistics
-- Update the date to be the first of the new month on each entry
-- Update the figures on each entry
-- Commit, create a PR and once signed off by your team, merge
+* Create a new branch
+* Open your services appropriate `data.json` file
+* Copy and paste the previous months statistics
+* Update the date to be the first of the new month on each entry
+* Update the figures on each entry
+* Commit, create a PR and once signed off by your team, merge
 
 ## Pre-Commit Hooks
 
