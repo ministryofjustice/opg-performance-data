@@ -3,8 +3,6 @@
 
 [![repo standards badge](https://img.shields.io/badge/dynamic/json?color=blue&style=for-the-badge&logo=github&label=MoJ%20Compliant&query=%24.result&url=https%3A%2F%2Foperations-engineering-reports.cloud-platform.service.justice.gov.uk%2Fapi%2Fv1%2Fcompliant_public_repositories%2Fperformance-data)](https://operations-engineering-reports.cloud-platform.service.justice.gov.uk/public-github-repositories.html#performance-data "Link to report")
 
-Update MoJ Compliance badge
-
 # OPG Services Performance Data
 
 A repository for holding our live services performance data for public consumption.
