@@ -1,8 +1,8 @@
 {
-  "name": "performance-data",
+  "name": "opg-performance-data",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/ministryofjustice/performance-data",
+  "repository": "https://github.com/ministryofjustice/opg-performance-data",
   "author": "John Nolan <john.nolan@digital.justice.gov.uk>",
   "license": "MIT",
   "scripts": {
