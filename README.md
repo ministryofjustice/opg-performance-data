@@ -22,9 +22,9 @@ On update of the JSON data, the pipeline will build a eleventy static site and p
 
 ## Use a lasting power of attorney Performance Data
 
-**Read me:** [src/_data/use_an_lpa/README.md](src/_data/use_an_lpa/README.md)
+**Read me:** [src/_data/use_a_lasting_power_of_attorney_service/README.md](src/_data/use_a_lasting_power_of_attorney_service/README.md)
 
-**Data:** [src/_data/use_an_lpa/data.json](src/_data/use_an_lpa/data.json)
+**Data:** [src/_data/use_a_lasting_power_of_attorney_service/data.json](src/_data/use_a_lasting_power_of_attorney_service/data.json)
 
 ## Running the site locally
 
