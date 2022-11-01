@@ -4,7 +4,7 @@ title: Make a Lasting Power of Attorney Performance Data
 description: "This page provides data on the performance of the Make a lasting power of attorney service."
 ---
 {%- from "../../node_modules/govuk-frontend/govuk/components/table/macro.njk" import govukTable %}
-{% set perfData = make_a_lpa.data | performanceFilter %}
+{% set perfData = make_a_lasting_power_of_attorney_service.data | performanceFilter %}
 
 {% set tableList = [] %}
 {% for perf in perfData %}
