@@ -9,7 +9,6 @@ jobs:
   build-and-deploy:
     name: Build and Deploy documentation site
     runs-on: ubuntu-latest
-    if: ${{ github.actor != 'dependabot[bot]' }}
     steps:
       - name: Check out code
         uses: actions/checkout@v3
