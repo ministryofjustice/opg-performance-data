@@ -11,7 +11,7 @@ description: "This page provides data on the performance of the Use a lasting po
 {% for perf in perfData %}
     {% set tableList = (tableList.push([
         {text: perf.dateDisplay},
-        {text: perf.stats.very_dissatisfied},
+        {text: perf.stats.very_satisfied},
         {text: perf.stats.satisfied},
         {text: perf.stats.neither},
         {text: perf.stats.dissatisfied},
