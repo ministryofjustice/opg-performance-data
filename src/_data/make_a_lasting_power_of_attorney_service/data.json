@@ -489,5 +489,14 @@
     "count": 100,
     "dataType": "uptime-percent",
     "period": "month"
+  },
+
+  {
+    "_timestamp": "2022-11-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": 86,
+    "dataType": "user-satisfaction-percent",
+    "period": "month"
   }
 ]
