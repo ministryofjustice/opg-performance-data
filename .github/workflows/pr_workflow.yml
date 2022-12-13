@@ -28,7 +28,15 @@ jobs:
           INPUT_SCHEMA: /schema.json
           INPUT_JSONS: src/_data/use_a_lasting_power_of_attorney_service/data.json,src/_data/make_a_lasting_power_of_attorney_service/data.json
 
-      - name: Install packages
+      - name: Cache yarn dependencies
+        id: cache
+        uses: actions/cache@v3
+        with:
+          path: ./node_modules
+          key: modules-${{ hashFiles('yarn.lock') }}
+
+      - name: Install dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
         run: yarn install
 
       - name: Run Build
