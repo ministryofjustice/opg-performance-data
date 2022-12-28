@@ -45,7 +45,7 @@ jobs:
       - name: Audit pages using lighthouse
         uses: treosh/lighthouse-ci-action@v9
         with:
-          configPath: './lighthouserc.json'
+          configPath: "./lighthouserc.json"
           budgetPath: ./src/_includes/budget.json
           uploadArtifacts: true
           temporaryPublicStorage: true
