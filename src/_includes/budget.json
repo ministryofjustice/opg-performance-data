@@ -38,7 +38,7 @@
     "resourceSizes": [
       { "resourceType": "document", "budget": 10 },
       { "resourceType": "stylesheet", "budget": 20 },
-      { "resourceType": "font", "budget": 40 },
+      { "resourceType": "font", "budget": 70 },
       { "resourceType": "image", "budget": 100 },
       { "resourceType": "script", "budget": 25 }
     ],
