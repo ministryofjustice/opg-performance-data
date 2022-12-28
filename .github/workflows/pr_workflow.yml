@@ -42,5 +42,10 @@ jobs:
       - name: Run Build
         run: yarn run build
 
-      - name: run lighthouse tests against live
-        uses: ./.github/workflows/_lighthouse-ci.yml
+      - name: Audit pages using lighthouse
+        uses: treosh/lighthouse-ci-action@v9
+        with:
+          configPath: './lighthouserc.json'
+          budgetPath: ./src/_includes/budget.json
+          uploadArtifacts: true
+          temporaryPublicStorage: true
