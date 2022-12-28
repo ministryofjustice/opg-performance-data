@@ -9,13 +9,16 @@
     "sass": "sass --style=compressed src/scss/styles.scss src/_includes/css/styles.css",
     "build": "npm run sass && eleventy",
     "start": "npm run sass && eleventy --serve",
-    "eleventy": "eleventy"
+    "eleventy": "eleventy",
+    "pa11y": "node ./pa11y/index.mjs"
   },
   "devDependencies": {
     "@11ty/eleventy": "1.0.2",
     "dayjs": "1.11.7",
+    "globby": "^13.1.3",
     "govuk-frontend": "4.4.1",
     "markdown-it": "13.0.1",
+    "pa11y": "^6.2.3",
     "sass": "1.57.1"
   }
 }
