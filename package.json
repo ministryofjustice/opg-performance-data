@@ -16,6 +16,6 @@
     "dayjs": "1.11.7",
     "govuk-frontend": "4.4.1",
     "markdown-it": "13.0.1",
-    "sass": "1.57.0"
+    "sass": "1.57.1"
   }
 }
