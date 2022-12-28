@@ -17,7 +17,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
-          node-version-file: '.nvmrc'
+          node-version-file: ".nvmrc"
 
       - name: Validate JSON Files
         run: node ./validate/index.js
@@ -41,3 +41,8 @@ jobs:
 
       - name: Run Build
         run: yarn run build
+
+  run_lighthouse_tests:
+    name: run lighthouse tests against live
+    uses: ./.github/workflows/_lighthouse-ci.yml
+    needs: ["build"]

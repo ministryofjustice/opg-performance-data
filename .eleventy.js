@@ -6,6 +6,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ 'node_modules/govuk-frontend/govuk/assets': 'assets' })
     eleventyConfig.addPassthroughCopy({ 'src/_includes/css': 'assets' })
     eleventyConfig.addPassthroughCopy({ 'src/_includes/assets': 'assets' })
+    eleventyConfig.addPassthroughCopy({ 'src/_includes/budget.json': 'budget.json' })
 
     eleventyConfig.addFilter('log', value => {
         console.log(value)
