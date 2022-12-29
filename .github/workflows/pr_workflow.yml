@@ -51,7 +51,7 @@ jobs:
         env:
           BODY_PREFIX: '<!-- pa11y-ci results -->'
           OWNER: 'ministryofjustice'
-          REPO: 'opg-modernising-lpa-docs'
+          REPO: 'opg-performance-data'
         with:
           script: |
             const script = require('./.github/workflows/scripts/pa11y-ci.js')
