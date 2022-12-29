@@ -43,7 +43,19 @@ jobs:
         run: yarn run build
 
       - name: Run pa11y
-        run: yarn run pa11y
+        run: yarn run pa11y-ci
+        continue-on-error: true
+
+      - name: Send pa11y results to PR Comment
+        uses: actions/github-script@v6
+        env:
+          BODY_PREFIX: '<!-- pa11y-ci results -->'
+          OWNER: 'ministryofjustice'
+          REPO: 'opg-modernising-lpa-docs'
+        with:
+          script: |
+            const script = require('./.github/workflows/scripts/pa11y-ci.js')
+            await script({ github, context, core })
 
       - name: Audit pages using lighthouse
         uses: treosh/lighthouse-ci-action@v9

@@ -2,3 +2,4 @@ node_modules/
 _site/
 src/_includes/css
 .DS_Store
+pa11y-output.json
