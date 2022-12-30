@@ -1799,7 +1799,7 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
-pa11y-ci@^3.0.1:
+pa11y-ci@3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/pa11y-ci/-/pa11y-ci-3.0.1.tgz#8de1fbf96544d5af66c53a832349b3a9e51b9f7a"
   integrity sha512-DUtEIhEG3Ofds7qRuplq0DdCb9doILRlzcRctFNzo4QUNmVy4iZfM3u51A9cqoPo2irCJZoo5BzfiFrcriY2IQ==
