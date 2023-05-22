@@ -1,7 +1,10 @@
 'use strict';
 
 const fs = require('fs');
-const documentsToCheck = ["./src/_data/use_a_lasting_power_of_attorney_service/data.json", "./src/_data/make_a_lasting_power_of_attorney_service/data.json"];
+const documentsToCheck = [
+    "./src/_data/use_a_lasting_power_of_attorney_service/data.json",
+    "./src/_data/make_a_lasting_power_of_attorney_service/data.json",
+    "./src/_data/complete_the_deputy_report_service/data.json"];
 
 documentsToCheck.forEach(value => {
     const data = fs.readFileSync(value);
