@@ -26,7 +26,7 @@ jobs:
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
           INPUT_SCHEMA: /schema.json
-          INPUT_JSONS: src/_data/use_a_lasting_power_of_attorney_service/data.json,src/_data/make_a_lasting_power_of_attorney_service/data.json
+          INPUT_JSONS: src/_data/use_a_lasting_power_of_attorney_service/data.json,src/_data/make_a_lasting_power_of_attorney_service/data.json,src/_data/complete_the_deputy_report_service/data.json
 
       - name: Cache yarn dependencies
         id: cache
