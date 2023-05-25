@@ -14,7 +14,7 @@
       "service": {
         "description": "Name of the service these figures represent.",
         "type": "string",
-        "pattern": "^(make-a-lpa|use-an-lpa)$"
+        "pattern": "^(make-a-lpa|use-an-lpa|deputy-reporting)$"
       },
       "channel": {
         "description": "Which channel this data comes from such as digital, phone, post, etc",
