@@ -667,15 +667,6 @@
     "_timestamp": "2023-05-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": 35.00,
-    "dataType": "digital-take-up",
-    "period": "month"
-  },
-
-  {
-    "_timestamp": "2023-05-01T00:00:00+00:00",
-    "service": "make-a-lpa",
-    "channel": "digital",
     "count": 87,
     "dataType": "user-satisfaction-percent",
     "period": "month"
