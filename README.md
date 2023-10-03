@@ -14,6 +14,12 @@ the data available there, you only need to update this repository.
 
 On update of the JSON data, the pipeline will build a eleventy static site and publish to github pages. This site is generated from the JSON data automatically.
 
+## Complete the deputy report Performance Data
+
+**Read me:** [src/_data/complete_the_deputy_report_service/README.md](src/_data/complete_the_deputy_report_service/README.md)
+
+**Data:** [src/_data/complete_the_deputy_report_service/data.json](src/_data/complete_the_deputy_report_service/data.json)
+
 ## Make a lasting power of attorney Performance Data
 
 **Read me:** [src/_data/make_a_lasting_power_of_attorney_service/README.md](src/_data/make_a_lasting_power_of_attorney_service/README.md)
