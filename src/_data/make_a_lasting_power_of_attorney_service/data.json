@@ -759,6 +759,14 @@
     "dataType": "uptime-percent",
     "period": "month"
   },
+  {
+    "_timestamp": "2023-08-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": 36,
+    "dataType": "digital-take-up",
+    "period": "month"
+  },
 
   {
     "_timestamp": "2023-09-01T00:00:00+00:00",
@@ -774,6 +782,14 @@
     "channel": "digital",
     "count": 100,
     "dataType": "uptime-percent",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2023-09-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": 31.7,
+    "dataType": "digital-take-up",
     "period": "month"
   },
 
