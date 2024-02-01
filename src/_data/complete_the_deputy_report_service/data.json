@@ -430,5 +430,53 @@
     "count": 407,
     "dataType": "very-satisfied",
     "period": "month"
+  },
+  {
+    "_timestamp": "2024-01-01T00:00:00+00:00",
+    "service": "deputy-reporting",
+    "channel": "digital",
+    "count": 80,
+    "dataType": "user-satisfaction-percent",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2024-01-01T00:00:00+00:00",
+    "service": "deputy-reporting",
+    "channel": "digital",
+    "count": 19,
+    "dataType": "very-dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2024-01-01T00:00:00+00:00",
+    "service": "deputy-reporting",
+    "channel": "digital",
+    "count": 29,
+    "dataType": "dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2024-01-01T00:00:00+00:00",
+    "service": "deputy-reporting",
+    "channel": "digital",
+    "count": 147,
+    "dataType": "neither",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2024-01-01T00:00:00+00:00",
+    "service": "deputy-reporting",
+    "channel": "digital",
+    "count": 501,
+    "dataType": "satisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2024-01-01T00:00:00+00:00",
+    "service": "deputy-reporting",
+    "channel": "digital",
+    "count": 510,
+    "dataType": "very-satisfied",
+    "period": "month"
   }
 ]
