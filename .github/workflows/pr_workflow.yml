@@ -58,7 +58,7 @@ jobs:
             await script({ github, context, core })
 
       - name: Audit pages using lighthouse
-        uses: treosh/lighthouse-ci-action@v9
+        uses: treosh/lighthouse-ci-action@v11
         with:
           configPath: "./lighthouserc.json"
           budgetPath: ./src/_includes/budget.json
