@@ -1,457 +1,25 @@
 [
   {
-    "_timestamp": "2023-04-01T00:00:00+00:00",
+    "_timestamp": "2024-01-01T00:00:00+00:00",
     "service": "deputy-reporting",
     "channel": "digital",
-    "count": 80,
-    "dataType": "user-satisfaction-percent",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-04-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 23,
-    "dataType": "very-dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-04-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 46,
-    "dataType": "dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-04-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 153,
-    "dataType": "neither",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-04-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 419,
-    "dataType": "satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-04-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 528,
-    "dataType": "very-satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-05-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 81,
-    "dataType": "user-satisfaction-percent",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-05-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 19,
-    "dataType": "very-dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-05-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 33,
-    "dataType": "dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-05-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 143,
-    "dataType": "neither",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-05-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 419,
-    "dataType": "satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-05-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 518,
-    "dataType": "very-satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-06-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 81,
-    "dataType": "user-satisfaction-percent",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-06-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 19,
-    "dataType": "very-dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-06-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 28,
-    "dataType": "dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-06-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 140,
-    "dataType": "neither",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-06-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 464,
-    "dataType": "satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-06-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 524,
-    "dataType": "very-satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-07-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 79,
-    "dataType": "user-satisfaction-percent",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-07-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 27,
-    "dataType": "very-dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-07-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 31,
-    "dataType": "dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-07-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 173,
-    "dataType": "neither",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-07-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 483,
-    "dataType": "satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-07-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 524,
-    "dataType": "very-satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-08-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 80,
-    "dataType": "user-satisfaction-percent",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-08-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 17,
-    "dataType": "very-dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-08-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 29,
-    "dataType": "dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-08-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 119,
-    "dataType": "neither",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-08-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 385,
-    "dataType": "satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-08-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 446,
-    "dataType": "very-satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-09-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 81,
-    "dataType": "user-satisfaction-percent",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-09-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 12,
-    "dataType": "very-dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-09-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 37,
-    "dataType": "dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-09-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 110,
-    "dataType": "neither",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-09-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 398,
-    "dataType": "satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-09-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 488,
-    "dataType": "very-satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-10-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 80,
-    "dataType": "user-satisfaction-percent",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-10-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 17,
-    "dataType": "very-dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-10-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 31,
-    "dataType": "dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-10-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 141,
-    "dataType": "neither",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-10-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 477,
-    "dataType": "satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-10-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 488,
-    "dataType": "very-satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-11-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 82,
-    "dataType": "user-satisfaction-percent",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-11-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 15,
-    "dataType": "very-dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-11-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 27,
-    "dataType": "dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-11-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 130,
-    "dataType": "neither",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-11-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 415,
-    "dataType": "satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-11-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 547,
-    "dataType": "very-satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-12-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 81,
-    "dataType": "user-satisfaction-percent",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-12-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 8,
-    "dataType": "very-dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-12-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 26,
-    "dataType": "dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-12-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 105,
-    "dataType": "neither",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-12-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 385,
-    "dataType": "satisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2023-12-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 407,
-    "dataType": "very-satisfied",
+    "count": null,
+    "dataType": "user_satisfaction_percent",
     "period": "month"
   },
   {
     "_timestamp": "2024-01-01T00:00:00+00:00",
     "service": "deputy-reporting",
     "channel": "digital",
-    "count": 80,
-    "dataType": "user-satisfaction-percent",
+    "count": 0,
+    "dataType": "very_dissatisfied",
     "period": "month"
   },
   {
     "_timestamp": "2024-01-01T00:00:00+00:00",
     "service": "deputy-reporting",
     "channel": "digital",
-    "count": 19,
-    "dataType": "very-dissatisfied",
-    "period": "month"
-  },
-  {
-    "_timestamp": "2024-01-01T00:00:00+00:00",
-    "service": "deputy-reporting",
-    "channel": "digital",
-    "count": 29,
+    "count": 0,
     "dataType": "dissatisfied",
     "period": "month"
   },
@@ -459,7 +27,7 @@
     "_timestamp": "2024-01-01T00:00:00+00:00",
     "service": "deputy-reporting",
     "channel": "digital",
-    "count": 147,
+    "count": 0,
     "dataType": "neither",
     "period": "month"
   },
@@ -467,7 +35,7 @@
     "_timestamp": "2024-01-01T00:00:00+00:00",
     "service": "deputy-reporting",
     "channel": "digital",
-    "count": 501,
+    "count": 0,
     "dataType": "satisfied",
     "period": "month"
   },
@@ -475,8 +43,8 @@
     "_timestamp": "2024-01-01T00:00:00+00:00",
     "service": "deputy-reporting",
     "channel": "digital",
-    "count": 510,
-    "dataType": "very-satisfied",
+    "count": 0,
+    "dataType": "very_satisfied",
     "period": "month"
   }
 ]
