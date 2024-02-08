@@ -1,0 +1,52 @@
+name: Import Performance Data
+#on:
+#  schedule:
+#    - cron: '0 7 * * 1-5'
+on:
+  push:
+    branches:
+      - DDLS-85
+
+jobs:
+  import-performance-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.2.0
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@f749619a9bd295c431b5a3fff1885bc7059e9c16
+        with:
+          aws-region: eu-west-1
+          role-to-assume: arn:aws:iam::311462405659:role/performance-data-github-actions-s3-read
+          role-duration-seconds: 900
+          role-session-name: GithubActionsPerformanceDataS3Read
+
+      - name: Download this months performance data file
+        run: |
+          year_month=$(date +'%y%m')
+          aws s3 cp s3://opg-performance-data/complete_the_deputy_report_${year_month}.json .
+
+      - name: Combine with existing file
+        env:
+          digideps_data_path: "./src/_data/complete_the_deputy_report_service/data.json"
+        run: |
+          year_month=$(date +'%y%m')
+          jq -s 'flatten' ${digideps_data_path} complete_the_deputy_report_${year_month}.json . > ${digideps_data_path}
+
+      - name: Create PR
+        env:
+          GH_TOKEN:  ${{ secrets.ORG_ACCESS_TOKEN }}
+          digideps_data_path: "./src/_data/complete_the_deputy_report_service/data.json"
+        run: |
+          branch=digideps-$(date +'%Y-%m-%d') 
+          git branch $branch
+          git switch $branch
+          echo "**Updated performance data for digideps**" >> $GITHUB_STEP_SUMMARY
+          git status -s >> $GITHUB_STEP_SUMMARY
+          git config --global user.email "tools@digital.justice.gov.uk"
+          git config --global user.name "Github Action"
+          git add ${digideps_data_path}
+          git commit -m "Performance data for digideps"
+          git push --set-upstream origin $branch
+          gh pr create --title "Digideps Performance Data" --body "Updating Performance Data for Digideps"
