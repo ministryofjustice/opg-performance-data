@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v3.2.0
 
       - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@f749619a9bd295c431b5a3fff1885bc7059e9c16
+        uses: aws-actions/configure-aws-credentials@2e34541e3b5995d25a0cede76ca096af7e454763
         with:
           aws-region: eu-west-1
           role-to-assume: arn:aws:iam::311462405659:role/performance-data-github-actions-s3-read
