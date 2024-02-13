@@ -1,0 +1,85 @@
+name: Import Performance Data
+
+# Run on 5th of each month at 7AM
+on:
+  schedule:
+    - cron: '0 7 5 * *'
+
+permissions:
+  id-token: write
+  contents: write
+  pull-requests: read
+
+jobs:
+  import-performance-data:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        performance:
+          - project: "complete_the_deputy_report"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.2.0
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@f749619a9bd295c431b5a3fff1885bc7059e9c16
+        with:
+          aws-region: eu-west-1
+          role-to-assume: arn:aws:iam::311462405659:role/performance-data-github-actions-s3-read
+          role-duration-seconds: 900
+          role-session-name: GithubActionsPerformanceDataS3Read
+
+      - name: Export variables
+        id: variables
+        env:
+          PROJECT: ${{ matrix.performance.project }}
+        run: |
+          echo "last_month=$(echo $(date -d "last month" +'%y_%m'))" >> $GITHUB_OUTPUT
+          export latest_date_in_file=$(date -d $(jq '.[-1]._timestamp' src/_data/${PROJECT}_service/data.json | tr -d '"') '+%y_%m' | awk -F_ '{print $1 "_" $2}')
+          echo "data_path=./src/_data/${PROJECT}_service/data.json" >> $GITHUB_OUTPUT
+          echo "latest_year_month=$(echo ${latest_date_in_file})" >> $GITHUB_OUTPUT
+
+      - name: Download this months performance data files
+        env:
+          YEAR_MONTH: ${{ steps.variables.outputs.last_month }}
+          PROJECT: ${{ matrix.performance.project }}
+        run: aws s3 cp s3://opg-performance-data/${PROJECT}_${YEAR_MONTH}.json .
+
+      - name: Combine with existing file
+        id: combine
+        env:
+          LAST_MONTH: ${{ steps.variables.outputs.last_month }}
+          DATA_FILE: ${{ steps.variables.outputs.data_path }}
+          LATEST_YEAR_MONTH: ${{ steps.variables.outputs.latest_year_month }}
+          PROJECT: ${{ matrix.performance.project }}
+        run: |
+          if [[ ${LAST_MONTH} == ${LATEST_YEAR_MONTH} ]]
+          then
+            echo "Changes already made this month on ${DATA_FILE}"
+            echo "skip_pr=true" >> $GITHUB_OUTPUT
+          else
+            jq -s 'flatten' ${DATA_FILE} ${PROJECT}_${LAST_MONTH}.json > ${PROJECT}_combined.json
+            mv ${PROJECT}_combined.json ${DATA_FILE}
+            echo "skip_pr=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.combine.outputs.skip_pr == 'false'
+        env:
+          GH_TOKEN:  ${{ secrets.ORG_ACCESS_TOKEN }}
+          DATA_FILE: ${{ steps.variables.outputs.data_path }}
+          LAST_MONTH: ${{ steps.variables.outputs.last_month }}
+          PROJECT: ${{ matrix.performance.project }}
+        run: |
+          branch="$(echo ${PROJECT}-${LAST_MONTH} | tr '_' '-')"
+          git branch $branch
+          git switch $branch
+          echo "**Updated performance data for ${branch}**" >> $GITHUB_STEP_SUMMARY
+          git status -s >> $GITHUB_STEP_SUMMARY
+          git config --global user.email "tools@digital.justice.gov.uk"
+          git config --global user.name "Github Action"
+          git add ${DATA_FILE}
+          git commit -m "Performance data for ${PROJECT}. Year and month: ${LAST_MONTH}"
+          git push --set-upstream origin $branch
+          gh pr create --title "Performance Data for ${PROJECT} ${LAST_MONTH}" --body "Updating Performance Data for ${PROJECT} for year and month ${LAST_MONTH}"
