@@ -1723,7 +1723,7 @@
     "period": "month"
   },
   {
-    "_timestamp": "2024-01-01T00:00:00+00:00",
+    "_timestamp": "2024-02-01T00:00:00+00:00",
     "service": "use-an-lpa",
     "channel": "digital",
     "count": 14338,
