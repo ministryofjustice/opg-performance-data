@@ -16,7 +16,7 @@
     "@11ty/eleventy": "2.0.1",
     "dayjs": "1.11.10",
     "govuk-frontend": "4.8.0",
-    "markdown-it": "13.0.2",
+    "markdown-it": "14.0.0",
     "pa11y-ci": "3.1.0",
     "sass": "1.71.1"
   }
