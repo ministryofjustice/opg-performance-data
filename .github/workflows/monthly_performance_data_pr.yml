@@ -1,9 +1,9 @@
 name: Import Performance Data
 
-# Run on 5th of each month at 7AM
+# Run on 1st of each month at 12PM
 on:
   schedule:
-    - cron: '0 7 5 * *'
+    - cron: '0 12 1 * *'
 
 permissions:
   id-token: write
