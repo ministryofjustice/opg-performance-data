@@ -531,7 +531,7 @@
     "_timestamp": "2024-03-01T00:00:00+00:00",
     "service": "deputy-reporting",
     "channel": "digital",
-    "count": "81",
+    "count": 81,
     "dataType": "user_satisfaction_percent",
     "period": "month"
   },
