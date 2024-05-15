@@ -940,6 +940,14 @@
   },
 
   {
+    "_timestamp": "2024-03-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": 38.7,
+    "dataType": "digital-take-up",
+    "period": "month"
+  },
+  {
     "_timestamp": "2024-04-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
