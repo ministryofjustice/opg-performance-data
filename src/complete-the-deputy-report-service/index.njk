@@ -4,7 +4,7 @@ title: Complete the deputy Report Performance Data
 description: "This page provides data on the performance of the Complete the deputy Report service."
 ---
 
-{%- from "../../node_modules/govuk-frontend/govuk/components/table/macro.njk" import govukTable %}
+{%- from "../../node_modules/govuk-frontend/dist/govuk/components/table/macro.njk" import govukTable %}
 {% set perfData = complete_the_deputy_report_service.data | performanceFilter %}
 
 {% set tableList = [] %}
