@@ -25,8 +25,8 @@
   <body class="govuk-template__body">
     {%- from "../macros/header.njk" import govukHeader %}
     {%- from "../macros/footer.njk" import govukFooter %}
-    {%- from "../../../node_modules/govuk-frontend/govuk/components/skip-link/macro.njk" import govukSkipLink %}
-    {%- from "../../../node_modules/govuk-frontend/govuk/components/back-link/macro.njk" import govukBackLink %}
+    {%- from "../../../node_modules/govuk-frontend/dist/govuk/components/skip-link/macro.njk" import govukSkipLink %}
+    {%- from "../../../node_modules/govuk-frontend/dist/govuk/components/back-link/macro.njk" import govukBackLink %}
     {{ govukSkipLink({
       text: "Skip to main content",
       href: "#content"
