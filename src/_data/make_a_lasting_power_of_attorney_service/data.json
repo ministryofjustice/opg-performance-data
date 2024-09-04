@@ -1052,7 +1052,7 @@
     "period": "month"
   },
   {
-    "_timestamp": "2024-07-01T00:00:00+00:00",
+    "_timestamp": "2024-08-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
     "count": 100,
