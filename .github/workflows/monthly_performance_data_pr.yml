@@ -20,7 +20,7 @@ jobs:
           - project: "complete_the_deputy_report"
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.7
+        uses: actions/checkout@v4.2.0
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@050bf7aae915badb82daa8e68fd95c9070706953
