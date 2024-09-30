@@ -33,7 +33,7 @@ jobs:
         run: yarn run build
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@920cbb300dcd3f0568dbc42700c61e2fd9e6139c # v4.6.4
+        uses: JamesIves/github-pages-deploy-action@56d4ca7e6076705962b4c38cb6cffdd18b6abe38 # v4.6.7
         with:
           branch: gh-pages
           folder: _site
