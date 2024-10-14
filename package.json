@@ -15,9 +15,9 @@
   "devDependencies": {
     "@11ty/eleventy": "2.0.1",
     "dayjs": "1.11.13",
-    "govuk-frontend": "5.6.0",
+    "govuk-frontend": "5.7.0",
     "markdown-it": "14.1.0",
     "pa11y-ci": "3.1.0",
-    "sass": "1.79.4"
+    "sass": "1.79.5"
   }
 }
