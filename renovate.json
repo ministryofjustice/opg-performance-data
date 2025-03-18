@@ -1,7 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
+    "config:recommended",
+    "helpers:pinGitHubActionDigests"
   ],
   "branchPrefix": "renovate-",
   "commitMessageAction": "Renovate Update",
@@ -43,8 +44,7 @@
       "Renovate"
     ],
     "prCreation": "not-pending",
-    "minimumReleaseAge": "3 days",
-    "prPriority": 0
+    "minimumReleaseAge": "3 days"
   },
   "vulnerabilityAlerts": {
     "groupName": "Security Alerts",
@@ -57,7 +57,6 @@
     "rangeStrategy": "update-lockfile",
     "commitMessagePrefix": "[SECURITY]",
     "branchTopic": "{{{datasource}}}-{{{depName}}}-vulnerability",
-    "prCreation": "immediate",
-    "prPriority": 5
+    "prCreation": "immediate"
   }
 }
