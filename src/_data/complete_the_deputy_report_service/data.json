@@ -484,7 +484,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 79,
-    "dataType": "user_satisfaction_percent",
+    "dataType": "user-satisfaction-percent",
     "period": "month"
   },
   {
@@ -492,7 +492,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 20,
-    "dataType": "very_dissatisfied",
+    "dataType": "very-dissatisfied",
     "period": "month"
   },
   {
@@ -524,7 +524,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 506,
-    "dataType": "very_satisfied",
+    "dataType": "very-satisfied",
     "period": "month"
   },
   {
@@ -532,7 +532,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 81,
-    "dataType": "user_satisfaction_percent",
+    "dataType": "user-satisfaction-percent",
     "period": "month"
   },
   {
@@ -540,7 +540,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 17,
-    "dataType": "very_dissatisfied",
+    "dataType": "very-dissatisfied",
     "period": "month"
   },
   {
@@ -572,7 +572,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 511,
-    "dataType": "very_satisfied",
+    "dataType": "very-satisfied",
     "period": "month"
   },
   {
@@ -580,7 +580,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 80,
-    "dataType": "user_satisfaction_percent",
+    "dataType": "user-satisfaction-percent",
     "period": "month"
   },
   {
@@ -588,7 +588,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 17,
-    "dataType": "very_dissatisfied",
+    "dataType": "very-dissatisfied",
     "period": "month"
   },
   {
@@ -620,7 +620,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 536,
-    "dataType": "very_satisfied",
+    "dataType": "very-satisfied",
     "period": "month"
   },
   {
@@ -628,7 +628,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 80,
-    "dataType": "user_satisfaction_percent",
+    "dataType": "user-satisfaction-percent",
     "period": "month"
   },
   {
@@ -636,7 +636,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 16,
-    "dataType": "very_dissatisfied",
+    "dataType": "very-dissatisfied",
     "period": "month"
   },
   {
@@ -668,7 +668,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 495,
-    "dataType": "very_satisfied",
+    "dataType": "very-satisfied",
     "period": "month"
   },
   {
@@ -676,7 +676,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 80,
-    "dataType": "user_satisfaction_percent",
+    "dataType": "user-satisfaction-percent",
     "period": "month"
   },
   {
@@ -684,7 +684,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 13,
-    "dataType": "very_dissatisfied",
+    "dataType": "very-dissatisfied",
     "period": "month"
   },
   {
@@ -716,7 +716,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 437,
-    "dataType": "very_satisfied",
+    "dataType": "very-satisfied",
     "period": "month"
   },
   {
@@ -724,7 +724,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 80,
-    "dataType": "user_satisfaction_percent",
+    "dataType": "user-satisfaction-percent",
     "period": "month"
   },
   {
@@ -732,7 +732,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 24,
-    "dataType": "very_dissatisfied",
+    "dataType": "very-dissatisfied",
     "period": "month"
   },
   {
@@ -764,7 +764,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 536,
-    "dataType": "very_satisfied",
+    "dataType": "very-satisfied",
     "period": "month"
   },
   {
@@ -772,7 +772,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 81,
-    "dataType": "user_satisfaction_percent",
+    "dataType": "user-satisfaction-percent",
     "period": "month"
   },
   {
@@ -780,7 +780,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 15,
-    "dataType": "very_dissatisfied",
+    "dataType": "very-dissatisfied",
     "period": "month"
   },
   {
@@ -812,7 +812,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 502,
-    "dataType": "very_satisfied",
+    "dataType": "very-satisfied",
     "period": "month"
   },
   {
@@ -820,7 +820,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 80,
-    "dataType": "user_satisfaction_percent",
+    "dataType": "user-satisfaction-percent",
     "period": "month"
   },
   {
@@ -828,7 +828,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 9,
-    "dataType": "very_dissatisfied",
+    "dataType": "very-dissatisfied",
     "period": "month"
   },
   {
@@ -860,7 +860,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 458,
-    "dataType": "very_satisfied",
+    "dataType": "very-satisfied",
     "period": "month"
   },
   {
@@ -868,7 +868,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 79,
-    "dataType": "user_satisfaction_percent",
+    "dataType": "user-satisfaction-percent",
     "period": "month"
   },
   {
@@ -876,7 +876,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 20,
-    "dataType": "very_dissatisfied",
+    "dataType": "very-dissatisfied",
     "period": "month"
   },
   {
@@ -908,7 +908,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 503,
-    "dataType": "very_satisfied",
+    "dataType": "very-satisfied",
     "period": "month"
   },
   {
@@ -916,7 +916,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 81,
-    "dataType": "user_satisfaction_percent",
+    "dataType": "user-satisfaction-percent",
     "period": "month"
   },
   {
@@ -924,7 +924,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 14,
-    "dataType": "very_dissatisfied",
+    "dataType": "very-dissatisfied",
     "period": "month"
   },
   {
@@ -956,7 +956,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 512,
-    "dataType": "very_satisfied",
+    "dataType": "very-satisfied",
     "period": "month"
   },
   {
@@ -964,7 +964,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 81,
-    "dataType": "user_satisfaction_percent",
+    "dataType": "user-satisfaction-percent",
     "period": "month"
   },
   {
@@ -972,7 +972,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 10,
-    "dataType": "very_dissatisfied",
+    "dataType": "very-dissatisfied",
     "period": "month"
   },
   {
@@ -1004,7 +1004,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 456,
-    "dataType": "very_satisfied",
+    "dataType": "very-satisfied",
     "period": "month"
   },
   {
@@ -1012,7 +1012,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 81,
-    "dataType": "user_satisfaction_percent",
+    "dataType": "user-satisfaction-percent",
     "period": "month"
   },
   {
@@ -1020,7 +1020,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 17,
-    "dataType": "very_dissatisfied",
+    "dataType": "very-dissatisfied",
     "period": "month"
   },
   {
@@ -1052,7 +1052,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 566,
-    "dataType": "very_satisfied",
+    "dataType": "very-satisfied",
     "period": "month"
   },
   {
@@ -1060,7 +1060,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 80,
-    "dataType": "user_satisfaction_percent",
+    "dataType": "user-satisfaction-percent",
     "period": "month"
   },
   {
@@ -1068,7 +1068,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 18,
-    "dataType": "very_dissatisfied",
+    "dataType": "very-dissatisfied",
     "period": "month"
   },
   {
@@ -1100,7 +1100,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 521,
-    "dataType": "very_satisfied",
+    "dataType": "very-satisfied",
     "period": "month"
   },
   {
@@ -1108,7 +1108,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 80,
-    "dataType": "user_satisfaction_percent",
+    "dataType": "user-satisfaction-percent",
     "period": "month"
   },
   {
@@ -1116,7 +1116,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 13,
-    "dataType": "very_dissatisfied",
+    "dataType": "very-dissatisfied",
     "period": "month"
   },
   {
@@ -1148,7 +1148,7 @@
     "service": "deputy-reporting",
     "channel": "digital",
     "count": 517,
-    "dataType": "very_satisfied",
+    "dataType": "very-satisfied",
     "period": "month"
   }
 ]
