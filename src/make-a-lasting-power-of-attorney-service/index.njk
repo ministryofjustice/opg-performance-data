@@ -10,6 +10,11 @@ description: "This page provides data on the performance of the Make a lasting p
 {% for perf in perfData %}
     {% set tableList = (tableList.push([
         {text: perf.dateDisplay},
+        {text: perf.stats.very_satisfied},
+        {text: perf.stats.satisfied},
+        {text: perf.stats.neither},
+        {text: perf.stats.dissatisfied},
+        {text: perf.stats.very_dissatisfied},
         {text: perf.stats.user_satisfaction_percent | percentFilter},
         {text: perf.stats.digital_take_up | percentFilter},
         {text: perf.stats.uptime_percent | percentFilter}
@@ -24,6 +29,21 @@ description: "This page provides data on the performance of the Make a lasting p
   head: [
     {
       text: "Date"
+    },
+    {
+      text: "Very Satisfied"
+    },
+    {
+      text: "Satisfied"
+    },
+    {
+      text: "Neither"
+    },
+    {
+      text: "Dissatisfied"
+    },
+    {
+      text: "Very Dissatisfied"
     },
     {
       text: "User Satisfaction Percent"
