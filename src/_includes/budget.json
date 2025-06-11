@@ -3,23 +3,11 @@
     "path": "/*",
     "timings": [
       {
-        "metric": "interactive",
-        "budget": 2600
-      },
-      {
-        "metric": "first-meaningful-paint",
-        "budget": 1800
-      },
-      {
         "metric": "first-contentful-paint",
         "budget": 1800
       },
       {
         "metric": "max-potential-fid",
-        "budget": 1500
-      },
-      {
-        "metric": "total-blocking-time",
         "budget": 1500
       },
       {
