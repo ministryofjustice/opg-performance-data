@@ -14,10 +14,10 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "3.1.2",
-    "dayjs": "1.11.13",
+    "dayjs": "1.11.15",
     "govuk-frontend": "5.11.2",
     "markdown-it": "14.1.0",
     "pa11y-ci": "3.1.0",
-    "sass": "1.90.0"
+    "sass": "1.91.0"
   }
 }
