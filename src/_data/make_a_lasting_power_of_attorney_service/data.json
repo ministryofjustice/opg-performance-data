@@ -1425,6 +1425,6 @@
     "channel": "digital",
     "count": 100,
     "dataType": "uptime-percent",
-    "period": "month"
+    "period": "monthh"
   }
 ]
