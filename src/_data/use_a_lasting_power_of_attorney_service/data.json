@@ -2740,5 +2740,53 @@
     "count": 10140,
     "dataType": "very-satisfied",
     "period": "month"
+  },
+  {
+    "_timestamp": "2025-12-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 88,
+    "dataType": "user-satisfaction-percent",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2025-12-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 357,
+    "dataType": "very-dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2025-12-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 382,
+    "dataType": "dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2025-12-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 1125,
+    "dataType": "neither",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2025-12-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 4406,
+    "dataType": "satisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2025-12-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 8687,
+    "dataType": "very-satisfied",
+    "period": "month"
   }
 ]
