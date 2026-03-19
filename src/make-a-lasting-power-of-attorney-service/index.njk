@@ -10,14 +10,14 @@ description: "This page provides data on the performance of the Make a lasting p
 {% for perf in perfData %}
     {% set tableList = (tableList.push([
         {text: perf.dateDisplay},
-        {text: perf.stats.very_satisfied},
-        {text: perf.stats.satisfied},
-        {text: perf.stats.neither},
-        {text: perf.stats.dissatisfied},
-        {text: perf.stats.very_dissatisfied},
-        {text: perf.stats.user_satisfaction_percent | percentFilter},
-        {text: perf.stats.digital_take_up | percentFilter},
-        {text: perf.stats.uptime_percent | percentFilter}
+        {text: perf.stats.very_satisfied, format: "numeric"},
+        {text: perf.stats.satisfied, format: "numeric"},
+        {text: perf.stats.neither, format: "numeric"},
+        {text: perf.stats.dissatisfied, format: "numeric"},
+        {text: perf.stats.very_dissatisfied, format: "numeric"},
+        {text: perf.stats.user_satisfaction_percent | percentFilter, format: "numeric"},
+        {text: perf.stats.digital_take_up | percentFilter, format: "numeric"},
+        {text: perf.stats.uptime_percent | percentFilter, format: "numeric"}
         ]),
     tableList) %}
 {% endfor %}
@@ -27,33 +27,15 @@ description: "This page provides data on the performance of the Make a lasting p
   captionClasses: "govuk-heading-l",
   firstCellIsHeader: false,
   head: [
-    {
-      text: "Date"
-    },
-    {
-      text: "Very Satisfied"
-    },
-    {
-      text: "Satisfied"
-    },
-    {
-      text: "Neither"
-    },
-    {
-      text: "Dissatisfied"
-    },
-    {
-      text: "Very Dissatisfied"
-    },
-    {
-      text: "User Satisfaction Percent"
-    },
-    {
-      text: "Digital Take Up"
-    },
-    {
-      text: "Uptime Percent"
-    }
+    {text: "Date"},
+    {text: "Very Satisfied", format: "numeric"},
+    {text: "Satisfied", format: "numeric"},
+    {text: "Neither", format: "numeric"},
+    {text: "Dissatisfied", format: "numeric"},
+    {text: "Very Dissatisfied", format: "numeric"},
+    {text: "User Satisfaction Percent", format: "numeric"},
+    {text: "Digital Take Up", format: "numeric"},
+    {text: "Uptime Percent", format: "numeric"}
   ],
   rows: tableList
 }) }}
