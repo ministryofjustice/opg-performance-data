@@ -1767,7 +1767,7 @@
     "_timestamp": "2025-12-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": 43,
+    "count": 44.8,
     "dataType": "digital-take-up",
     "period": "month"
   },
@@ -1831,7 +1831,7 @@
     "_timestamp": "2026-01-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": "TBU",
+    "count": "44.2",
     "dataType": "digital-take-up",
     "period": "month"
   },
@@ -1895,7 +1895,7 @@
     "_timestamp": "2026-02-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": "TBU",
+    "count": "42.2",
     "dataType": "digital-take-up",
     "period": "month"
   }
