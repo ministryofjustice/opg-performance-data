@@ -23,7 +23,7 @@ jobs:
         run: node ./validate/index.js
 
       - name: Validate JSON
-        uses: docker://orrosenblatt/validate-json-action:latest
+        uses: docker://orrosenblatt/validate-json-action@sha256:02370758b8b199e0477da11ecfdd498c75c561685056b5c31b925a4ab95df7f4 # no version tags
         env:
           INPUT_SCHEMA: /schema.json
           INPUT_JSONS: src/_data/use_a_lasting_power_of_attorney_service/data.json,src/_data/make_a_lasting_power_of_attorney_service/data.json,src/_data/complete_the_deputy_report_service/data.json
