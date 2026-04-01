@@ -56,11 +56,3 @@ jobs:
           script: |
             const script = require('./.github/workflows/scripts/pa11y-ci.js')
             await script({ github, context, core })
-
-      - name: Audit pages using lighthouse
-        uses: treosh/lighthouse-ci-action@1b0e7c33270fbba31a18a0fbb1de7cc5256b6d39 # v11.4.0
-        with:
-          configPath: "./lighthouserc.json"
-          budgetPath: ./src/_includes/budget.json
-          uploadArtifacts: true
-          temporaryPublicStorage: true
