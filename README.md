@@ -36,10 +36,13 @@ On update of the JSON data, the pipeline will build a eleventy static site and p
 
 If you want to run a local copy of the site, run the following commands to install dependencies.
 
-* `nvm use`
-* `yarn install`
+`docker compose up server`
 
-Then to run the site use `yarn run start` which will run the site on localhost:8080 in watch mode.
+which will run the site on localhost:8089 in watch mode.
+
+You can build the `_site` folder with:
+
+`docker compose up builder`
 
 ## Contributing
 
@@ -60,7 +63,7 @@ The root of this project contains a `.pre-commit-config.yaml` file used with [pr
 
 You can check the validity of your JSON document by running the following command in your terminal at the root of the project.
 
-`node ./validate/index.js`
+`docker compose up validator`
 
 This also runs in the Github Action and will break the build if there is an error.
 

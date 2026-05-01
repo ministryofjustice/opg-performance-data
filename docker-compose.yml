@@ -1,0 +1,38 @@
+services:
+  builder:
+    container_name: node_build
+    volumes:
+      - ./src:/app/src
+      - ./_site:/app/_site
+      - ./.eleventy.js:/app/.eleventy.js
+
+    command: yarn run build
+    build:
+      context: ./
+
+  server:
+    container_name: node_server
+    volumes:
+      - ./src:/app/src
+      - ./_site:/app/_site
+      - ./.eleventy.js:/app/.eleventy.js
+    ports:
+      - 8089:8080
+    command: yarn run start
+    build:
+      context: ./
+  
+  validator:
+    container_name: node_validator
+    volumes:
+      - ./src:/app/src
+      - ./_site:/app/_site
+      - ./.eleventy.js:/app/.eleventy.js
+      - ./validate:/app/validate
+    ports:
+      - 8089:8080
+    command: node ./validate/index.js
+    build:
+      context: ./
+
+
