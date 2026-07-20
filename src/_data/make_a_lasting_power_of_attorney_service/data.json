@@ -2023,7 +2023,7 @@
     "_timestamp": "2026-04-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": "41",
+    "count": "40.9",
     "dataType": "digital-take-up",
     "period": "month"
   },
@@ -2081,6 +2081,14 @@
     "channel": "digital",
     "count": 100,
     "dataType": "uptime-percent",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2026-05-01T00:00:00+00:00",
+    "service": "make-a-lpa",
+    "channel": "digital",
+    "count": "38.3",
+    "dataType": "digital-take-up",
     "period": "month"
   },
   {
