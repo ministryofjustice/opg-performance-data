@@ -2215,7 +2215,7 @@
     "_timestamp": "2026-07-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": "",
+    "count": "36.6",
     "dataType": "digital-take-up",
     "period": "month"
   },
