@@ -1,38 +1,35 @@
 services:
   builder:
     container_name: node_build
+    build:
+      context: ./
     volumes:
       - ./src:/app/src
       - ./_site:/app/_site
       - ./.eleventy.js:/app/.eleventy.js
-
-    command: yarn run build
-    build:
-      context: ./
+    command: ["npm", "run", "build"]
 
   server:
     container_name: node_server
+    build:
+      context: ./
     volumes:
       - ./src:/app/src
       - ./_site:/app/_site
       - ./.eleventy.js:/app/.eleventy.js
     ports:
-      - 8089:8080
-    command: yarn run start
-    build:
-      context: ./
-  
+      - "8089:8080"
+    command: ["npm", "run", "start"]
+
   validator:
     container_name: node_validator
+    build:
+      context: ./
     volumes:
       - ./src:/app/src
       - ./_site:/app/_site
       - ./.eleventy.js:/app/.eleventy.js
       - ./validate:/app/validate
     ports:
-      - 8089:8080
-    command: node ./validate/index.js
-    build:
-      context: ./
-
-
+      - "8089:8080"
+    command: ["node", "./validate/index.js"]
