@@ -2279,7 +2279,7 @@
     "_timestamp": "2026-08-01T00:00:00+00:00",
     "service": "make-a-lpa",
     "channel": "digital",
-    "count": "",
+    "count": "37.7",
     "dataType": "digital-take-up",
     "period": "month"
   }
