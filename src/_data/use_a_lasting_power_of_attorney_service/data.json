@@ -3079,7 +3079,7 @@
   },
   {
     "_timestamp": "2026-07-01T00:00:00+00:00",
-    "service": "make-a-lpa",
+    "service": "use-an-lpa",
     "channel": "digital",
     "count": 89,
     "dataType": "user-satisfaction-percent",
@@ -3087,7 +3087,7 @@
   },
   {
     "_timestamp": "2026-07-01T00:00:00+00:00",
-    "service": "make-a-lpa",
+    "service": "use-an-lpa",
     "channel": "digital",
     "count": 444,
     "dataType": "very-dissatisfied",
@@ -3095,7 +3095,7 @@
   },
   {
     "_timestamp": "2026-07-01T00:00:00+00:00",
-    "service": "make-a-lpa",
+    "service": "use-an-lpa",
     "channel": "digital",
     "count": 372,
     "dataType": "dissatisfied",
@@ -3103,7 +3103,7 @@
   },
   {
     "_timestamp": "2026-07-01T00:00:00+00:00",
-    "service": "make-a-lpa",
+    "service": "use-an-lpa",
     "channel": "digital",
     "count": 1228,
     "dataType": "neither",
@@ -3111,7 +3111,7 @@
   },
   {
     "_timestamp": "2026-07-01T00:00:00+00:00",
-    "service": "make-a-lpa",
+    "service": "use-an-lpa",
     "channel": "digital",
     "count": 5406,
     "dataType": "satisfied",
@@ -3119,7 +3119,7 @@
   },
   {
     "_timestamp": "2026-07-01T00:00:00+00:00",
-    "service": "make-a-lpa",
+    "service": "use-an-lpa",
     "channel": "digital",
     "count": 11836,
     "dataType": "very-satisfied",
@@ -3127,7 +3127,7 @@
   },
   {
     "_timestamp": "2026-07-01T00:00:00+00:00",
-    "service": "make-a-lpa",
+    "service": "use-an-lpa",
     "channel": "digital",
     "count": 100,
     "dataType": "uptime-percent",
@@ -3135,7 +3135,7 @@
   },
   {
     "_timestamp": "2026-07-01T00:00:00+00:00",
-    "service": "make-a-lpa",
+    "service": "use-an-lpa",
     "channel": "digital",
     "count": "",
     "dataType": "digital-take-up",
@@ -3143,7 +3143,7 @@
   },
   {
     "_timestamp": "2026-08-01T00:00:00+00:00",
-    "service": "make-a-lpa",
+    "service": "use-an-lpa",
     "channel": "digital",
     "count": 90,
     "dataType": "user-satisfaction-percent",
@@ -3151,7 +3151,7 @@
   },
   {
     "_timestamp": "2026-08-01T00:00:00+00:00",
-    "service": "make-a-lpa",
+    "service": "use-an-lpa",
     "channel": "digital",
     "count": 415,
     "dataType": "very-dissatisfied",
@@ -3159,7 +3159,7 @@
   },
   {
     "_timestamp": "2026-08-01T00:00:00+00:00",
-    "service": "make-a-lpa",
+    "service": "use-an-lpa",
     "channel": "digital",
     "count": 380,
     "dataType": "dissatisfied",
@@ -3167,7 +3167,7 @@
   },
   {
     "_timestamp": "2026-08-01T00:00:00+00:00",
-    "service": "make-a-lpa",
+    "service": "use-an-lpa",
     "channel": "digital",
     "count": 1238,
     "dataType": "neither",
@@ -3175,7 +3175,7 @@
   },
   {
     "_timestamp": "2026-08-01T00:00:00+00:00",
-    "service": "make-a-lpa",
+    "service": "use-an-lpa",
     "channel": "digital",
     "count": 5536,
     "dataType": "satisfied",
@@ -3183,7 +3183,7 @@
   },
   {
     "_timestamp": "2026-08-01T00:00:00+00:00",
-    "service": "make-a-lpa",
+    "service": "use-an-lpa",
     "channel": "digital",
     "count": 11865,
     "dataType": "very-satisfied",
@@ -3191,7 +3191,7 @@
   },
   {
     "_timestamp": "2026-08-01T00:00:00+00:00",
-    "service": "make-a-lpa",
+    "service": "use-an-lpa",
     "channel": "digital",
     "count": 100,
     "dataType": "uptime-percent",
@@ -3199,7 +3199,7 @@
   },
   {
     "_timestamp": "2026-08-01T00:00:00+00:00",
-    "service": "make-a-lpa",
+    "service": "use-an-lpa",
     "channel": "digital",
     "count": "",
     "dataType": "digital-take-up",
