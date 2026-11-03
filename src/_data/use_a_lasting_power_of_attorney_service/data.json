@@ -3134,14 +3134,6 @@
     "period": "month"
   },
   {
-    "_timestamp": "2026-07-01T00:00:00+00:00",
-    "service": "use-an-lpa",
-    "channel": "digital",
-    "count": "",
-    "dataType": "digital-take-up",
-    "period": "month"
-  },
-  {
     "_timestamp": "2026-08-01T00:00:00+00:00",
     "service": "use-an-lpa",
     "channel": "digital",
@@ -3198,11 +3190,115 @@
     "period": "month"
   },
   {
-    "_timestamp": "2026-08-01T00:00:00+00:00",
+    "_timestamp": "2026-09-01T00:00:00+00:00",
     "service": "use-an-lpa",
     "channel": "digital",
-    "count": "",
-    "dataType": "digital-take-up",
+    "count": 89,
+    "dataType": "user-satisfaction-percent",
     "period": "month"
-  }
+  },
+  {
+    "_timestamp": "2026-09-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 448,
+    "dataType": "very-dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2026-09-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 407,
+    "dataType": "dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2026-09-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 1374,
+    "dataType": "neither",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2026-09-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 5575,
+    "dataType": "satisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2026-09-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 12397,
+    "dataType": "very-satisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2026-09-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 100,
+    "dataType": "uptime-percent",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2026-10-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 90,
+    "dataType": "user-satisfaction-percent",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2026-10-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 446,
+    "dataType": "very-dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2026-10-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 345,
+    "dataType": "dissatisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2026-10-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 1366,
+    "dataType": "neither",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2026-10-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 6207,
+    "dataType": "satisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2026-10-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 12942,
+    "dataType": "very-satisfied",
+    "period": "month"
+  },
+  {
+    "_timestamp": "2026-10-01T00:00:00+00:00",
+    "service": "use-an-lpa",
+    "channel": "digital",
+    "count": 100,
+    "dataType": "uptime-percent",
+    "period": "month"
+  },
 ]
